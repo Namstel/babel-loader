@@ -195,7 +195,7 @@ In the case one of your dependencies is installing `babel` and you cannot uninst
 
 `core-js` and `webpack/buildin` will cause errors if they are transpiled by Babel.
 
-You will need to exclude them form `babel-loader`.
+You will need to exclude them from `babel-loader`.
 
 ```js
 {
